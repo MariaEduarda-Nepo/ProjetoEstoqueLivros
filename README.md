@@ -8,8 +8,8 @@ Sistema de gerenciamento de estoque de livros didáticos desenvolvido para o SEN
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Prototipagem](#prototipagem)
-- [Metodologias Ágeis](#metodologias-ágeis)
+- [Prototipagem](https://www.figma.com/design/B4amsZzuykN1FUHcynHEbD/EstoqueLivros?node-id=0-1&t=Ce0Fp5lJabMw12Kl-1)
+- [Metodologias Ágeis](https://trello.com/invite/b/699892d311b8dfae544d9ca8/ATTIa9688e112a3598c954e53c16c17c4553ADB31A37/estoquelivrossenai)
 - [Versionamento](#versionamento)
 - [Autoras](#autoras)
 
