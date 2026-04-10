@@ -4,61 +4,53 @@ Sistema de gerenciamento de estoque de livros didáticos desenvolvido para o SEN
 
 ---
 
-## 📋 Índice
-
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Prototipagem](https://www.figma.com/design/B4amsZzuykN1FUHcynHEbD/EstoqueLivros?node-id=0-1&t=Ce0Fp5lJabMw12Kl-1)
-- [Metodologias Ágeis](https://trello.com/invite/b/699892d311b8dfae544d9ca8/ATTIa9688e112a3598c954e53c16c17c4553ADB31A37/estoquelivrossenai)
-- [Versionamento](#versionamento)
-- [Autoras](#autoras)
-
----
-
-## 💡 Sobre o Projeto
+## Sobre o Projeto
 
 O **SENAI Livros** é uma aplicação web para controle de estoque de livros didáticos, voltada para almoxarifes e coordenadores da instituição. O sistema permite registrar entradas e saídas de livros, consultar o saldo em tempo real e emitir alertas quando o estoque está abaixo do mínimo necessário.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Levantamento de Requisitos
 
-- **Back-End:** Laravel (PHP)
-- **Banco de Dados:** MySQL (relacional)
-- **ORM:** Eloquent ORM
-- **API:** RESTful com retorno em JSON
-- **Padrões:** PSR e Clean Code
-- **Autenticação:** JWT
-- **Testes:** Insomnia / Postman
-- **Versionamento:** Git + GitHub
+Foram identificados problemas na gestão de estoque de livros didáticos, como falta de organização no controle de entradas e saídas, ausência de alertas de reposição e falta de histórico de movimentações, definindo as principais funcionalidades do sistema.
 
 ---
 
-## 🎨 Prototipagem
+## Prototipagem
 
-O projeto passou por três etapas de prototipagem:
+Interfaces desenvolvidas no Figma para estruturar telas como login, cadastro e dashboard, garantindo melhor visualização e experiência do usuário. O projeto passou por três etapas: wireframes para validação de fluxo, mockups com identidade visual SENAI (vermelho `#C8102E`) e protótipo de alta fidelidade com interações simuladas.
 
-- **Baixa Fidelidade (Wireframes):** Rascunho focado na estrutura e no fluxo de telas — rápido e barato para validar ideias iniciais.
-- **Média Fidelidade (Mockups):** Adiciona cores, fontes e estilo gráfico (identidade visual SENAI — vermelho `#C8102E`), ainda como imagem estática.
-- **Alta Fidelidade (Funcional):** Simula o comportamento real do software, com botões clicáveis e transições, ideal para testes finais com usuários.
+🔗 [Acessar protótipo no Figma](https://www.figma.com/design/B4amsZzuykN1FUHcynHEbD/EstoqueLivros?node-id=0-1&t=Ce0Fp5lJabMw12Kl-1)
 
 ---
 
-## 📌 Metodologias Ágeis
+## Metodologias Ágeis
 
-O projeto é desenvolvido em **Sprints** curtas (iterações de 2 a 4 semanas), seguindo os princípios ágeis.
+O projeto é desenvolvido por meio de sprints, permitindo entregas contínuas, organização das tarefas e evolução gradual do sistema. O acompanhamento é feito via Kanban no Trello, com cartões por tarefa distribuídos entre as colunas de backlog, em andamento e concluído.
 
-**Kanban (Trello):** acompanhamento visual do fluxo de trabalho com cartões por tarefa.  
-🔗 [Board no Trello](https://trello.com/b/6oArYACB/biblioteca-senai)
+🔗 [Board no Trello](https://trello.com/invite/b/699892d311b8dfae544d9ca8/ATTIa9688e112a3598c954e53c16c17c4553ADB31A37/estoquelivrossenai)
 
+---
 
-## 🔀 Versionamento
+## Versionamento
 
-Projeto versionado com Git e hospedado no GitHub.
+Utilização do Git e GitHub para controle de versões, permitindo acompanhamento das alterações, colaboração entre a equipe e segurança no desenvolvimento.
 
 ```bash
 git clone https://github.com/MariaEduarda-Nepo/ProjetoEstoqueLivros.git
 ```
+
+---
+
+## Documentação
+
+Documentação planejada para descrever os endpoints da API, padronização REST, tratamento de erros e organização das respostas em JSON. Testada com Insomnia / Postman.
+
+---
+
+## Tecnologias Utilizadas
+
+Back-End em **Laravel (PHP)** com banco de dados **MySQL**, utilizando **Eloquent ORM** para mapeamento relacional. A API segue o padrão **RESTful** com retorno em JSON, autenticação via **JWT** e boas práticas de **PSR** e **Clean Code**.
 
 ---
 
